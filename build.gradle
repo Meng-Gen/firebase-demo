@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = 'App'
+
+dependencies {
+    compile 'com.google.guava:guava:23.0'
+    compile 'com.google.firebase:firebase-admin:5.9.0'
+    testCompile 'junit:junit:4.12'
+}
+
+repositories {
+    jcenter()
+}
